@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = process.env.VERCEL_URL ?? "http://localhost:3000";
 const BASE_API_URL = `${BASE_URL}/api`;
 
 export const API = {
